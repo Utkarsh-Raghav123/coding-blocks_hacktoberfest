@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li:first-child{
+            color: red;
+        }
+        li:nth-of-type(odd){
+            color: green;
+        }
+        li:nth-of-type(2n+3){
+            color: blue;
+        }
+        p:nth-of-type(3){
+            color: purple;
+        }
+        p:nth-child(3){
+            color: yellowgreen;
+        }
+        h1::before{
+            content: 'this is before';
+            color: orange;
+        }
+        h1::after{
+            content: ' this is after';
+            color: orange;
+        }
+        section{
+            border: 2px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    
+    <h2>Pesudo classes</h2>
+    <section>
+    <ul>
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+    <ul>
+    <li>list 4</li>
+    <li>list 5</li>
+    <li>list 6</li>
+    <li>list 7</li>
+    </ul>
+    <li>list 8</li>
+    <li>list 9</li>
+    <li>list 10</li>
+    </ul>
+    </section>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sunt optio, voluptas recusandae quisquam laudantium similique quas, iure sequi ex explicabo accusamus eaque et ullam deleniti dolor repudiandae iste atque, magni dolores. Laborum, eum.</p>
+    <h4>hello</h4>
+    <h4>hy</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolore explicabo quaerat beatae facere voluptates architecto non fugiat magnam reprehenderit, odit, odio debitis enim sunt iusto, alias qui voluptatibus impedit iste pariatur. Necessitatibus corrupti nobis minus exercitationem, fugiat repellat. Officiis officia quia quae omnis cumque nisi ex animi itaque. Doloribus totam magni illum nostrum sit est rerum dignissimos ipsum, quibusdam cupiditate, laudantium non commodi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, cupiditate. Rem incidunt libero aliquid laudantium dicta harum fuga qui deleniti explicabo! Nihil nulla quae eum odio, repellat quis asperiores quo pariatur, maiores perspiciatis distinctio.</p>
+
+    <h1>We are learning pseudo classes</h1>
+    
+    <div>
+        <p>
+            this is a para in div
+        </p>
+    </div>
+
+    <div style="border: 2px solid red; margin: 6px;">
+        <span style="border:1px solid blue; padding: 2px;">this is first span</span>
+        <span>this is second span</span>
+        <span>this is third span</span>
+    </div>
+    <div>
+        <span>this is  2nd first span</span>
+        <span>this is 2nd second span</span>
+        <span>this is 2nd third span</span>
+    </div>
+</body>
+</html>
