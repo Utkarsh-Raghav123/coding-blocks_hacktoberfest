@@ -1,0 +1,77 @@
+.First{
+    width: 33.3%;
+    height: 200px;
+    color: antiquewhite;
+    background-color: tomato;
+    padding: 20px;
+    margin: 15px;
+}
+
+.first{
+    display: flex;
+}
+
+.Second{
+    width: 25%;
+    height: 50px;
+    color: antiquewhite;
+    background-color: tomato;
+    padding: 20px;
+    margin: 15px;
+}
+
+.second{
+    display: flex;
+}
+
+.Third{
+    width: 20%;
+    height: 50px;
+    color: antiquewhite;
+    background-color: tomato;
+    padding: 20px;
+    margin: 15px;
+}
+
+.third{
+    display: flex;
+}
+
+.Box1{
+    width: 30%;
+    height: 30px;
+    color: lightcoral;
+    background-color: bisque;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box1{
+    display: flex;
+}
+
+.Box2{
+    width: 25%;
+    height: 30px;
+    color: blueviolet;
+    background-color: bisque;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box2{
+    display: flex;
+}
+
+.Box3{
+    width: 20%;
+    height: 30px;
+    color: fuchsia;
+    background-color: bisque;
+    padding: 5px;
+    margin: 5px;
+}
+
+.box3{
+    display: flex;
+}
